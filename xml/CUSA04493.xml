@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <TitleID>
+        <ID>CUSA04493</ID>
+    </TitleID>
+    <Metadata Note="Enable at game boot." Title="Prey"
+              Name="60 FPS"
+              Author="maj0r"
+              PatchVer="1.0"
+              AppVer="01.12"
+              ImageBase="0x400000"
+              AppElf="PreyDll.prx">
+        <PatchList>
+            <Line Type="bytes" Address="0x0148b293" Value="31f690"/>
+            <Line Type="bytes" Address="0x013bd8e1" Value="31f6"/>
+        </PatchList>
+    </Metadata>
+</Patch>
